@@ -1,0 +1,37 @@
+/*Resize the wrap to see the search bar change!*/
+.form {
+    display:grid;
+    width: 60%;
+    margin: 20px auto;
+    /* change the margin to move where it is on the page */
+}
+
+
+.input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid rgb(187,187,188);
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9dbfaf;
+}
+
+.input:focus {
+    color: rgb(41,42,45);
+}
+
+
+.button {
+    width: 100%;
+    height: 36px;
+    border: 1px solid rgb(194,66,56);
+    background: rgb(194,66,56);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
